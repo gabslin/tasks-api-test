@@ -1,4 +1,4 @@
-package gabs.tasks.api;
+package gabs.tasks.apitest;
 
 import org.hamcrest.CoreMatchers;
 import org.junit.BeforeClass;
@@ -7,7 +7,7 @@ import org.junit.Test;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 
-public class APItest {
+public class APITest {
 	
 	@BeforeClass
 	public static void setup() {
